@@ -1,6 +1,9 @@
 spring:
   datasource:
-    url: jdbc:oracle:thin:@192.168.33.145:1521:ORCL 
+    driver-class-name:  oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@192.168.33.145:1521:ORCL
+    username: IRP
+    password: IRP
 paascloud:
   auth:
     rest-pwd-url: http://dev-login.paascloud.net/resetPwd?resetPwdKey=
