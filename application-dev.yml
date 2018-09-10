@@ -10,8 +10,6 @@ spring:
     host: 127.0.0.1
     port: 6379
     timeout: 0
-  session:
-    store-type:none
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
     username: IRP
